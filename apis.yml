@@ -1,8 +1,27 @@
 aid: newfront
 name: Newfront
-description: 'Newfront is a company surfaced as a portfolio company of index-ventures, susa-ventures,
-  sv-angel and added to the API Evangelist network as a stub for enrichment. Sector: fintech. This profile
-  is a lead awaiting the enrichment pipeline.'
+description: 'Newfront is a modern business insurance brokerage and technology company
+  headquartered in San Francisco. It combines a traditional insurance brokerage (commercial
+  business insurance, employee benefits, retirement services, and risk management) with
+  a software platform that gives clients transparent data and analytics to understand
+  and lower their total cost of risk. Formed from the merger of Newfront and ABD Insurance,
+  the company serves technology, venture-backed, and enterprise clients across property
+  and casualty, health and benefits, and personal lines. Backed by Index Ventures, Susa
+  Ventures, and SV Angel. As of this enrichment pass Newfront exposes a client-facing web
+  application (app.newfront.com) but publishes no public developer API, developer portal,
+  or machine-readable API specification.'
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://www.newfront.com/favicon.ico
 url: https://raw.githubusercontent.com/api-evangelist/newfront/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -14,10 +33,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
 - Fintech
+- Insurance
+- Insurtech
+- Employee Benefits
+- Risk Management
+- Brokerage
+- Retirement
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,5 +50,28 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/newfront-domain-security.yml
 - type: Website
-  url: http://newfrontinsurance.com
+  url: https://www.newfront.com
+- type: About
+  url: https://www.newfront.com/about
+- type: Blog
+  url: https://www.newfront.com/blog
+- type: Support
+  url: https://www.newfront.com/contact
+- type: TermsOfService
+  url: https://www.newfront.com/terms
+- type: PrivacyPolicy
+  url: https://www.newfront.com/privacy
+- type: Login
+  url: https://app.newfront.com
+- type: TrustCenter
+  url: https://www.newfront.com/security
+- type: Careers
+  url: https://www.newfront.com/careers
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
